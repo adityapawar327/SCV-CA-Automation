@@ -193,6 +193,14 @@ Desktop.ini
 # Office temporary files
 ~$*
 
+# Document files
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.xlsm
+*.xlsb
+
 # Uploaded files (you may want to keep sample files)
 uploads/
 temp_files/
