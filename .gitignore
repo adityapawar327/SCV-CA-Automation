@@ -208,3 +208,12 @@ temp_files/
 # Output files
 output/
 downloads/
+
+# ML Models (EasyOCR, etc.)
+models/
+*.pth
+*.pt
+*.onnx
+*.h5
+*.pkl
+*.joblib
