@@ -40,9 +40,21 @@ if main_tool == "Home":
     st.divider()
     
     st.markdown("### Available Tools")
-    st.markdown("**Principle 6 Updater** - Automatically updates environmental sustainability data (energy, water, emissions, waste) in your BRSR document from Excel data.")
-    st.markdown("**Metadata Analyzer** - Extract and analyze metadata from documents (PDF, DOCX, XLSX, images, etc.) and sort them by date. Perfect for organizing Gmail attachments!")
-    st.markdown("**Comparison Tools:**")
+    
+    st.markdown("#### 📋 Principle 6 Updater")
+    st.markdown("Automatically updates environmental sustainability data (energy, water, emissions, waste) in your BRSR document from Excel data.")
+    
+    st.markdown("#### 📄 Document Metadata Analyzer")
+    st.markdown("Extract and analyze metadata from multiple documents with powerful features:")
+    st.markdown("- **Supported Formats:** PDF, DOCX, XLSX, XLS, CSV, Images (JPG, PNG, GIF, etc.), and more")
+    st.markdown("- **Smart Sorting:** Sort files by modification date, creation date, or file size")
+    st.markdown("- **Detailed Information:** View file properties, author, creation/modification times, page counts, and more")
+    st.markdown("- **Time & Date Display:** Clear format showing ⏰ Time: HH:MM | 📅 Date: DD MMM YYYY")
+    st.markdown("- **Quick Access:** Download/open any file directly from the interface")
+    st.markdown("- **Export:** Export all metadata to CSV for further analysis")
+    st.markdown("- **Perfect for:** Organizing Gmail attachments, managing document libraries, tracking file versions")
+    
+    st.markdown("#### 🔍 Comparison Tools")
     st.markdown("- **Excel File Comparator** - Compare up to 15 Excel files and identify differences across sheets, columns, and values.")
     st.markdown("- **Word Document Comparator** - Compare Word documents with visual highlighting of differences.")
     # st.markdown("- **PDF & Image Comparator** - Compare images and PDFs using OCR, with visual annotations showing differences directly on the images.")
