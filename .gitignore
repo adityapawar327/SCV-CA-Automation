@@ -204,6 +204,8 @@ Desktop.ini
 # Uploaded files (you may want to keep sample files)
 uploads/
 temp_files/
+test_documents/
+temp_metadata_analysis/
 
 # Output files
 output/
